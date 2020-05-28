@@ -58,9 +58,11 @@ public class ProductTesterPart4 {
         	}
         }
         
- //Modifique ProductTesterPart4 de modo que el usuario pueda modificar los
- // elementos. Pregunte al usuario si desea sumar o restar del inventario del
- // elemento tal y como se muestra cada elemento.   
+/*
+Modifique ProductTesterPart4 de modo que el usuario pueda modificar los
+elementos. Pregunte al usuario si desea sumar o restar del inventario del
+elemento tal y como se muestra cada elemento.   
+*/
         
         if(cantidad > 0)
         {
