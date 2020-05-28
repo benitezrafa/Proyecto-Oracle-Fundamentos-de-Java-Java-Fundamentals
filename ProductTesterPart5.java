@@ -1,8 +1,10 @@
 package javaInventory;
 
-//4. Modifique ProductTesterPart5 de modo que se pueda crear una matriz de objetos 
-//de la nueva subclase a partir de la entrada de usuario. Muestre los productos de 
-//la subclase utilizando un bucle for.
+/*
+4. Modifique ProductTesterPart5 de modo que se pueda crear una matriz de objetos 
+de la nueva subclase a partir de la entrada de usuario. Muestre los productos de 
+la subclase utilizando un bucle for.
+*/
 
 
 import java.util.Scanner;
@@ -47,10 +49,10 @@ public class ProductTesterPart5 {
             		precioUnidad = sc2.nextDouble();
             		
             		Scanner sc4 = new Scanner(System.in);
-            		System.out.println("Ingresa el título del DVD: ");
+            		System.out.println("Ingresa el tÃ­tulo del DVD: ");
             		System.out.println();
             		titulo = sc4.nextLine();
-            		System.out.println("Ingresa duración en minutos del DVD: ");
+            		System.out.println("Ingresa duraciÃ³n en minutos del DVD: ");
             		duracion = sc4.nextInt();
 
 
