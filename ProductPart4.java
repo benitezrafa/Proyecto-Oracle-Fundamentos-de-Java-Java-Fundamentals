@@ -1,6 +1,8 @@
-//En este punto, los alumnos deben crear nuevas clases ProductPart4 y
-//ProductTesterPart4 que se sumarán a la funcionalidad de la parte 3 del proyecto.
-//(Copie y pegue el código de la parte 3 en las nuevas clases de la parte 4)
+/*
+En este punto, los alumnos deben crear nuevas clases ProductPart4 y
+ProductTesterPart4 que se sumarÃ¡n a la funcionalidad de la parte 3 del proyecto.
+(Copie y pegue el cÃ³digo de la parte 3 en las nuevas clases de la parte 4)
+*/
 
 package javaInventory;
 
@@ -76,10 +78,13 @@ public class ProductPart4 {
 		return mensaje;
 	}
 	
-//Cree dos nuevos métodos en la clase ProductPart4, uno que permitirá al usuario
-//sumar al número de unidades en existencias, y otro que permitirá al usuario
-//restar del número de unidades en existencias. Ambos métodos deben tener un
-//parámetro para el número de elementos que se van a sumar o restar.
+
+/*
+Cree dos nuevos mÃ©todos en la clase ProductPart4, uno que permitirÃ¡ al usuario
+sumar al nÃºmero de unidades en existencias, y otro que permitirÃ¡ al usuario
+restar del nÃºmero de unidades en existencias. Ambos mÃ©todos deben tener un
+parÃ¡metro para el nÃºmero de elementos que se van a sumar o restar.
+*/
 	
 	public double calcularValor()
 	{
