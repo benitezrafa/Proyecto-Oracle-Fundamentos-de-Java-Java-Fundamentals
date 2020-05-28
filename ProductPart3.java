@@ -1,8 +1,10 @@
 package javaInventory;
 
-//En este punto, los alumnos deben crear nuevas clases ProductPart3 y
-//ProductTesterPart3 que se sumar·n a la funcionalidad de la parte 2 del proyecto.
-//(Copie y pegue el cÛdigo de la parte 2 en las nuevas clases de la parte 3)
+/*
+En este punto, los alumnos deben crear nuevas clases ProductPart3 y
+ProductTesterPart3 que se sumar√°n a la funcionalidad de la parte 2 del proyecto.
+(Copie y pegue el c√≥digo de la parte 2 en las nuevas clases de la parte 3)
+*/
 
 public class ProductPart3 {
 
