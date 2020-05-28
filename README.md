@@ -21,12 +21,12 @@ Tema(s): Tipos de datos, creación de clases/objetos, variables de
 instancia/campos, constructores, métodos (de acceso/getter, mutadores/setter),
 sobrecarga, clases principal/de prueba, toString()
 
-### 1. Elija un producto que se preste a ser sometido a inventario (por ejemplo,
-productos del hogar, centro educativo o lugar de trabajo: suministros de
+### 1. Elija un producto que se preste a ser sometido a inventario 
+
+(por ejemplo, productos del hogar, centro educativo o lugar de trabajo: suministros de
 oficina, CD de música, películas de DVD o software).
 
-### 2. Cree una clase Product denominada ProductPart1 con variables de instancia
-para:
+### 2. Cree una clase Product denominada ProductPart1 con variables de instancia para:
 
 a) Número de elemento
 b) Nombre del producto
@@ -42,20 +42,15 @@ parámetros para las cuatro variables de instancia mencionadas en el
 punto 2 anterior que puedan inicializar el objeto con valores del
 probador.
 
-### 4. Escriba los métodos de acceso (getter) y mutadores (setter) para las
-cuatro variables de la instancia.
+### 4. Escriba los métodos de acceso (getter) y mutadores (setter) para las cuatro variables de la instancia.
 
-### 5. Sustituya el método toString() de la clase de objeto que mostrará una
-descripción de cada objeto que incluye los valores de variable.
+### 5. Sustituya el método toString() de la clase de objeto que mostrará una descripción de cada objeto que incluye los valores de variable.
 
-### 6. Cree una clase principal Java denominada ProductTesterPart1 que cree e
-inicialice seis objetos ProductPart1.
+### 6. Cree una clase principal Java denominada ProductTesterPart1 que cree e inicialice seis objetos ProductPart1.
 a) Dos de los productos deben crearse mediante el constructor por defecto
 b) Los otros cuatro deben crearse mediante valores para los argumentos
 
-### 7. Desde ProductTesterPart1, visualice el número de producto, el nombre
-del producto, el número de unidades en existencias y el precio de cada
-unidad
+### 7. Desde ProductTesterPart1, visualice el número de producto, el nombre del producto, el número de unidades en existencias y el precio de cada unidad
 
 
 ## Requisitos: (Soluciones: ProductPart2, ProductTesterPart2)
@@ -67,16 +62,14 @@ ProductTesterPart2 que se sumarán a la funcionalidad de la parte 1 del proyecto
 Tema(s): Entrada del teclado/escáner
 
 ### 1. Modifique ProductTesterPart2
+
 a) Agregue un escáner.
 b) Pida al usuario que introduzca valores para los argumentos de los dos
 productos del paso 6a de la parte 1.
 
-### 2. Cree un método en la clase ProductPart2 que calculará el valor de cada
-elemento del inventario, usando la cantidad disponible y el precio.
+### 2. Cree un método en la clase ProductPart2 que calculará el valor de cada elemento del inventario, usando la cantidad disponible y el precio.
 
-### 3. Muestre la información en ProductTesterPart2 para estos productos tal y
-como era en la parte 1. Además, incluya el valor de inventario para cada
-producto modificando el método toString() en ProductPart2.
+### 3. Muestre la información en ProductTesterPart2 para estos productos tal y como era en la parte 1. Además, incluya el valor de inventario para cada producto modificando el método toString() en ProductPart2.
 
 ## Requisitos: (Soluciones: ProductPart3, ProductTesterPart3)
 
