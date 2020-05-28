@@ -2,8 +2,10 @@ package javaInventory;
 
 
 public class DVD extends ProductPart5 {
-//1 Cree una subclase de la clase ProductPart5 que tenga dos variables 
-//adicionales. (Por ejemplo, una subclase DVD podría utilizar una longitud y un título de película).
+/*
+1 Cree una subclase de la clase ProductPart5 que tenga dos variables 
+adicionales. (Por ejemplo, una subclase DVD podrÃ­a utilizar una longitud y un tÃ­tulo de pelÃ­cula).
+*/
 
 	private String titulo;
 	private int duracion; 
@@ -39,11 +41,13 @@ public class DVD extends ProductPart5 {
 	{
 		this.duracion = _duracion;
 	}
-	
-//2 En la subclase, sustituya el método para calcular el valor del inventario de un producto 
-//con el mismo nombre que el método creado anteriormente para la clase de producto. 
-//El método de subclase debe sumar también una tasa de devolución al almacén del 5% al valor 
-//del inventario de ese producto.
+
+/* 2 En la subclase, sustituya el mÃ©todo para calcular el valor del inventario de un producto 
+con el mismo nombre que el mÃ©todo creado anteriormente para la clase de producto. 
+El mÃ©todo de subclase debe sumar tambiÃ©n una tasa de devoluciÃ³n al almacÃ©n del 5% al valor 
+del inventario de ese producto.
+*/
+
 	
 	@Override
 	public double calcularValor()
@@ -52,9 +56,10 @@ public class DVD extends ProductPart5 {
 		return valor + valor * 0.05;
 		
 	}
-	
-//3 Sustituya el método toString() de la clase ProductPart5 de modo que toda 
-//la información sobre los objetos de la nueva subclase pueda mostrarse en el resultado.
+/*	
+3 Sustituya el mÃ©todo toString() de la clase ProductPart5 de modo que toda 
+la informaciÃ³n sobre los objetos de la nueva subclase pueda mostrarse en el resultado.
+*/
 
 	
 	@Override
@@ -67,8 +72,8 @@ public class DVD extends ProductPart5 {
 		mensaje = mensaje + "Numero de unidades: " + this.getNumeroUnidadesExistencias() + "\n";
 		mensaje = mensaje + "Precio de unidad: " + "$" + this.getPrecioUnidad() + "\n";
 		mensaje = mensaje + "Valor de inventario: " + this.calcularValor() + "\n";
-		mensaje = mensaje + "Título DVD: " + "$" + this.titulo + "\n";
-		mensaje = mensaje + "Duración del DVD: "+ this.duracion +  " minutos" +"\n";
+		mensaje = mensaje + "TÃ­tulo DVD: " + "$" + this.titulo + "\n";
+		mensaje = mensaje + "DuraciÃ³n del DVD: "+ this.duracion +  " minutos" +"\n";
 
 		
 		return mensaje;
