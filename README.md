@@ -13,7 +13,6 @@ nuevos. Incluya todas las partes en un paquete denominado javaInventory.
 Cree un programa de inventario que se pueda utilizar para una serie de productos
 distintos (CD, DVD, software, etc.).
 
-# Sección 4: Creación de un proyecto de inventario
 
 ## Requisitos: (Soluciones: ProductPart1, ProductTesterPart1)
 
@@ -89,3 +88,32 @@ Tema(s): Matrices de objetos, bucles for.
 
 > Nota: La clase de objeto ProductPart3 es la misma que la de ProductPart2, sin que se necesiten modificaciones.
 
+## Requisitos: (Soluciones: ProductPart4, ProductTesterPart4)
+
+En este punto, los alumnos deben crear nuevas clases ProductPart4 y
+ProductTesterPart4 que se sumarán a la funcionalidad de la parte 3 del proyecto.
+(Copie y pegue el código de la parte 3 en las nuevas clases de la parte 4)
+
+Tema(s): Modificación de programas, adición de métodos, uso de parámetros en un
+método, interfaz de usuario para probar nuevos métodos
+
+### 1. Cree dos nuevos métodos en la clase ProductPart4, uno que permitirá al usuario sumar al número de unidades en existencias, y otro que permitirá al usuario restar del número de unidades en existencias. Ambos métodos deben tener un parámetro para el número de elementos que se van a sumar o restar.
+
+### 2. Modifique ProductTesterPart4 de modo que el usuario pueda modificar los elementos. Pregunte al usuario si desea sumar o restar del inventario del elemento tal y como se muestra cada elemento.
+
+## Requisitos: (Soluciones: ProductPart5, ProductTesterPart5)
+
+En este punto, los alumnos deben crear nuevas clases ProductPart5 y
+ProductTesterPart5 que se sumarán a la funcionalidad del proyecto. (Copie y pegue
+el código de la parte 4 en las nuevas clases de la parte 5)
+
+Tema(s): Adición de una subclase, uso de extensiones, uso de super(), sustitución de
+métodos de una superclase.
+
+### 1. Cree una subclase de la clase ProductPart5 que tenga dos variables adicionales. (Por ejemplo, una subclase DVD podría utilizar una longitud y un título de película).
+
+### 2. En la subclase, sustituya el método para calcular el valor del inventario de un producto con el mismo nombre que el método creado anteriormente para la clase de producto. El método de subclase debe sumar también una tasa de devolución al almacén del 5% al valor del inventario de ese producto.
+
+### 3. Sustituya el método toString() de la clase ProductPart5 de modo que toda la información sobre los objetos de la nueva subclase pueda mostrarse en el resultado.
+
+### 4. Modifique ProductTesterPart5 de modo que se pueda crear una matriz de objetos de la nueva subclase a partir de la entrada de usuario. Muestre los productos de la subclase utilizando un bucle for.
